@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat DFC</title>
     <link rel="icon" type="image/png" href="/images/dfc.png">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
 
 <body>
@@ -17,12 +16,20 @@
             <form action="#">
                 <div class="error-txt">¡Este es un error en el mensaje</div>
                 <div class="field">
-                    <label class="usuario">Usuario</label>
-                    <input type="text" placeholder="Usuario">
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Nombre">
                 </div>
                 <div class="field">
-                    <label class="mail">correo</label>
+                    <label>Apellido</label>
+                    <input type="text" placeholder="Apellido">
+                </div>
+                <div class="field">
+                    <label>Contraseña</label>
                     <input type="text" placeholder="Ingresa una contraseña segura">
+                </div>
+                <div class="field">
+                    <label>Sube tu foto</label>
+                    <input class="archivo" type="file">
                 </div>
                 <div class="field">
                    <input class="button" type="submit" value="Continua al chat" />

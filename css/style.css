@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #800020;
+}
+
+.wrapper{
+    background-color: #ffffbf;
+    width: 450px;
+    border-radius: 16px;
+    box-shadow: 0 0 128px rgba(0, 0, 0, 0.1)
+                0 32px 64px rgba(0, 0, 0, 0.5);
+}
+
+.form{
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.field{
+    margin: 20px 0;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+ .button{
+    width: 100%;
+    padding: 10px;
+    background-color: #800020;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Sing Up Form CSS Code*/
+
+.form .singup {
+    width: 20px;
+    height: 20px;
+    position: relative;
+
+}
+
+.form form .error-txt{
+    color: #721c24; 
+    background: #f8d7da;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb;
+}
+
+.form form .name-details{
+    display: flex;
+}
+
+form .name-details .field:first-child{
+     margin-right: 10px;
+}
+
+form .name-details .field:last-child{
+     margin-left: 10px;
+}
+ 
+.form form .name-details{
+    display: flex;
+}
+
+form .name-details .field:first-child{
+    margin-right: 10px;
+}
+
+form .name-details .field:last-child{
+    margin-left: 10px;
+}
+.form form .field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form form .field label {
+    margin-bottom: 2px;
+
+}
+
+.form form .field input{
+    outline: none;
+}
+
+.form form .button input{
+    height: 13px;
+    width: 45px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form form .archivo input{
+    margin-top: 13px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form .link{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.form .link a{
+    color: #333;
+}
+.form .link a:hover{
+    text-decoration: underline;
+}
+
+.usuario{
+    display: flex;
+}
+.mail {
+    display: flex;
+}
