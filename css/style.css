@@ -149,3 +149,10 @@ form .name-details .field:last-child{
 .mail {
     display: flex;
 }
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+
+}
