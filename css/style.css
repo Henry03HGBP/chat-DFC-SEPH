@@ -94,6 +94,7 @@ form .name-details .field:last-child{
 }
 .form form .field{
     display: flex;
+    position: relative;
     flex-direction: column;
     margin-bottom: 10px;
 }
@@ -115,6 +116,15 @@ form .name-details .field:last-child{
     font-weight: 500;
     color: #fff;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.form form .field i{
+    position: absolute;
+    right: 15px;
+    color: #ccc;
+    top: 70%;
+    transform: translateY(-50%);
     cursor: pointer;
 }
 
@@ -145,9 +155,15 @@ form .name-details .field:last-child{
 
 .usuario{
     display: flex;
+    flex-direction: column;
 }
 .mail {
     display: flex;
+    flex-direction: column;
+}
+.contraseña{
+    display: flex;
+    flex-direction: column;
 }
 .logo {
     width: 100px;
